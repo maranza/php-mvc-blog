@@ -1,0 +1,130 @@
+*{
+	padding: 0;
+	margin: 0;
+	list-style-type:none;
+	/*vertical-align: baseline;*/
+	overflow-x: hidden; 
+}
+p,h1,h2,h3,h4,h5,h6{
+	color:black;
+	font-weight:200;
+	font-family: "Adobe Caslon Pro", "Hoefler Text", Georgia, Garamond, Times, serif, cursive;
+	margin-bottom:7px;
+	margin-top:7px;
+}
+p{
+	font-size: 14px;
+	font-family: "Adobe Caslon Pro", "Hoefler Text", cursive;
+}
+h1,h2,h3,h4,h5,h6{
+	font-size: 20px;
+	text-align: center;
+}
+body{
+	font-size:14px;
+	font-family:'Imprima', sans-serif;
+	/*display:block;*/
+	background-color: #ffffff;
+	-webkit-text-size-adjust:100%;
+	-moz-text-size-adjust:100%;
+	-moz-user-content:none;
+	-webkit-user-content:none;
+	user-select:none;
+}
+header,nav,section,article,footer,aside{
+	display:block;
+	overflow-x:hidden;
+
+}
+section{
+	/*margin-top: 20px;*/
+	margin-bottom: 25px;
+}
+article{
+	padding-right: 20px;/*testing*/
+}
+/*header{
+	min-height:80px;
+	width:100%;
+	background-color:#ffffff;
+	position:fixed;
+	top:0px;
+	padding:0px 2%;
+	z-index:1800;
+	opacity: 0.8;
+	box-shadow: 0.8;
+	/*transition: top 0.2s ease-in-out;*/
+}*/
+nav li.active a { 
+		text-decoration: underline;
+		color:tomato;
+	  }
+/*start navigation*/
+#navigation{
+	/*width:655px;*/
+	
+	padding-left:auto;
+	margin-right:100px;
+	float:right;
+	color:#0E1F57;
+	line-height: 60px;
+	font-size:12px;
+	font-family: "Aller_Rg", arial;
+}
+
+#navigation ul li{
+	list-style:none;
+	display:inline;
+}
+#navigation ul li a{
+	text-decoration:none;
+	/*color:#9a9a9a;*/
+	color: rgb(0,0,0);
+	text-transform:uppercase;
+	display:block;
+	margin-left:18px;
+	float:left;
+	  padding: 10px;
+  display: inline-block;
+  overflow: hidden;
+  /*font-weight: 700;*/
+}
+
+#navigation ul li a:hover{
+	color:tomato;
+	text-decoration: underline;
+
+}
+
+
+
+.container{
+	width: 600px;
+	margin:20px auto;
+	border:1px solid black;
+	border-radius: 5px;
+	padding: 10px;
+	text-align: center;
+	text-decoration: none;
+}
+form ul{
+	padding: 0;
+}
+form li{
+	list-style: none;
+}
+form input[type=text] ,form textarea{
+	margin-bottom: 1.5em;
+	width: 100%;
+	box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+	border: 2px solid #ffffff;/*#57D6C7*/
+}
+form input[type=text],form textarea:hover{
+	
+}
+form textarea{
+	height: 300px;
+}
+label{
+	display: block;
+}
